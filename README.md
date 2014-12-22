@@ -1,6 +1,6 @@
 PHP OS Detector
 ===============
-[![Build Status](https://travis-ci.org/tivie/php-os-detector.svg?branch=develop)](https://travis-ci.org/tivie/php-os-detector) [![Latest Stable Version](https://poser.pugx.org/tivie/php-os-detector/v/stable.svg)](https://packagist.org/packages/tivie/php-os-detector) [![Total Downloads](https://poser.pugx.org/tivie/php-os-detector/downloads.svg)](https://packagist.org/packages/tivie/php-os-detector) [![License](https://poser.pugx.org/tivie/php-os-detector/license.svg)](https://packagist.org/packages/tivie/php-os-detector)
+[![Build Status](https://travis-ci.org/tivie/php-os-detector.svg?branch=master)](https://travis-ci.org/tivie/php-os-detector) [![Latest Stable Version](https://poser.pugx.org/tivie/php-os-detector/v/stable.svg)](https://packagist.org/packages/tivie/php-os-detector) [![Total Downloads](https://poser.pugx.org/tivie/php-os-detector/downloads.svg)](https://packagist.org/packages/tivie/php-os-detector) [![License](https://poser.pugx.org/tivie/php-os-detector/license.svg)](https://packagist.org/packages/tivie/php-os-detector) [![HHVM Status](http://hhvm.h4cc.de/badge/tivie/php-os-detector.svg)](http://hhvm.h4cc.de/package/tivie/php-os-detector)
 
 A small PHP utility library that detects the OS the server is running on.
 
