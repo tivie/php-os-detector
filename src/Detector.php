@@ -65,6 +65,15 @@ class Detector implements DetectorInterface
     }
 
     /**
+     * If the Operating System is OSX
+     * @return bool
+     */
+    public function isOSX()
+    {
+        return ($this->getType() === MACOSX);
+    }
+
+    /**
      * If the Operating System is Windows Like
      *
      * @return int
