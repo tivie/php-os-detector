@@ -5,6 +5,7 @@ PHP OS Detector
 [![Latest Stable Version](https://poser.pugx.org/tivie/php-os-detector/v/stable.svg)](https://packagist.org/packages/tivie/php-os-detector)
 [![Total Downloads](https://poser.pugx.org/tivie/php-os-detector/downloads.svg)](https://packagist.org/packages/tivie/php-os-detector)
 [![License](https://poser.pugx.org/tivie/php-os-detector/license.svg)](https://packagist.org/packages/tivie/php-os-detector)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/89e09818-08c3-4feb-9037-65ccf0c15a59/mini.png)](https://insight.sensiolabs.com/projects/89e09818-08c3-4feb-9037-65ccf0c15a59)
 
 A small PHP utility library that detects the OS the server is running on.
 
