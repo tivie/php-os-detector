@@ -1,4 +1,4 @@
-PHP OS Detector
+PHP OS Detector [![SensioLabsInsight](https://insight.sensiolabs.com/projects/89e09818-08c3-4feb-9037-65ccf0c15a59/small.png)](https://insight.sensiolabs.com/projects/89e09818-08c3-4feb-9037-65ccf0c15a59)
 ===============
 
 [![Build Status](https://travis-ci.org/tivie/php-os-detector.svg?branch=master)](https://travis-ci.org/tivie/php-os-detector)
