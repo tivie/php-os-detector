@@ -8,6 +8,10 @@ PHP OS Detector
 
 A small PHP utility library that detects the OS the server is running on.
 
+## Compatibility
+
+Although only tested in PHP 7, PHP OS Detector should be compatible with PHP 5.3 or greater
+
 ## Installation
 You can install it by cloning the git repository or using composer.
 
