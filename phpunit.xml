@@ -9,5 +9,8 @@
         <testsuite name="Windows">
             <file>test/DetectorWindowsTest.php</file>
         </testsuite>
+        <testsuite name="UnixOnWindows">
+            <file>test/DetectorUnixOnWindowsTest.php</file>
+        </testsuite>
     </testsuites>
 </phpunit>
