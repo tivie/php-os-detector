@@ -20,8 +20,6 @@
 
 namespace Tivie\OS;
 
-require_once('DetectorBase.php');
-
 class DetectorWindowsTest extends DetectorBase
 {
 
