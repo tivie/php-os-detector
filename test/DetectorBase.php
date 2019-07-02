@@ -39,9 +39,21 @@ abstract class DetectorBase extends \PHPUnit_Framework_TestCase
      */
     public function testGetters()
     {
-        self::assertTrue(is_int($this->os->getFamily()), "getFamily() is not returning an integer (and it should)");
-        self::assertTrue(is_int($this->os->getType()), "getType() is not returning an integer (and it should)");
-        self::assertTrue(is_string($this->os->getKernelName()), "getKernelName() is not returning a string (and it should)");
+        self::assertInternalType(
+          'int',
+          $this->os->getFamily(),
+          'getFamily() is not returning an integer (and it should)'
+        );
+        self::assertInternalType(
+          'int',
+          $this->os->getType(),
+          'getType() is not returning an integer (and it should)'
+        );
+        self::assertInternalType(
+          'string',
+          $this->os->getKernelName(),
+          'getKernelName() is not returning a string (and it should)'
+        );
 
         return $this->os;
     }

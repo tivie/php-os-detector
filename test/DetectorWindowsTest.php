@@ -38,6 +38,6 @@ class DetectorWindowsTest extends DetectorBase
         self::assertEquals(WINDOWS_FAMILY, $this->os->getFamily());
         self::assertEquals(WINDOWS, $this->os->getType());
         $haystack = array('WINDOWS', 'WINNT', 'WIN32');
-        self::assertContains($this->os->getKernelName(), $haystack, "", true);
+        self::assertContains($this->os->getKernelName(), $haystack, '', true);
     }
 }

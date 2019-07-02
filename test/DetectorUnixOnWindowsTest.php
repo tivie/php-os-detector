@@ -47,6 +47,6 @@ class DetectorUnixOnWindowsTest extends DetectorBase
         $haystack = array(MSYS, CYGWIN);
         self::assertContains($os->getType(), $haystack);
 
-        self::assertContains($os->getKernelName(), $haystack, "", true);
+        self::assertContains($os->getKernelName(), $haystack, '', true);
     }
 }
