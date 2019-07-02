@@ -51,7 +51,12 @@ class Detector implements DetectorInterface
      */
     public function __construct()
     {
-        $this->kernel = strtoupper(PHP_OS);
+        // PHP_OS returns the operating system where the PHP executable was
+        // built.
+        // While in most cases this is equally to the runtime OS, this returns
+        // an invalid value if the php interpreter was cross built on another
+        // operating system.
+        $this->kernel = strtoupper(\php_uname('s'));
         $this->parsePHPOS($this->kernel);
     }
 
