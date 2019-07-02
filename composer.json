@@ -22,5 +22,10 @@
     "psr-4": {
       "Tivie\\OS\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tivie\\OS\\Test\\": "test/"
+    }
   }
 }

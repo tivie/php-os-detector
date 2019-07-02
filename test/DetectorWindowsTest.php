@@ -18,18 +18,10 @@
  * limitations under the License.
  **/
 
-namespace Tivie\OS;
-
-require_once('DetectorBase.php');
+namespace Tivie\OS\Test;
 
 class DetectorWindowsTest extends DetectorBase
 {
-
-    public function testGetters()
-    {
-        return parent::testGetters();
-    }
-
     /**
      * @depends testGetters
      */

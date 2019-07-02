@@ -18,7 +18,9 @@
  * limitations under the License.
  **/
 
-namespace Tivie\OS;
+namespace Tivie\OS\Test;
+
+use Tivie\OS\Detector;
 
 abstract class DetectorBase extends \PHPUnit_Framework_TestCase
 {

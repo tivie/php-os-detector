@@ -18,22 +18,10 @@
  * limitations under the License.
  **/
 
-namespace Tivie\OS;
-
-require_once('DetectorBase.php');
+namespace Tivie\OS\Test;
 
 class DetectorUnixTest extends DetectorBase
 {
-    /**
-     * @covers \Tivie\OS\Detector::getFamily
-     * @covers \Tivie\OS\Detector::getType
-     * @covers \Tivie\OS\Detector::getKernelName
-     */
-    public function testGetters()
-    {
-        return parent::testGetters();
-    }
-
     /**
      * @depends testGetters
      */
