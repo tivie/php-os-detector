@@ -2,7 +2,14 @@ language: php
 
 php:
   - 7.1
+  - 7.2
+  - 7.3
+  - nightly
+
+matrix:
+  allow_failures:
+    - php: nightly
 
 install: composer install
 
-script: phpunit --configuration phpunit.xml --coverage-text --testsuite=Linux
+script: vendor/bin/phpunit --coverage-text --testsuite=Linux

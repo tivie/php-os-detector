@@ -42,7 +42,7 @@ class Detector implements DetectorInterface
 
     /**
      * OS type constant
-     * @var
+     * @var int
      */
     protected $osConst;
 
@@ -113,7 +113,7 @@ class Detector implements DetectorInterface
         return $this->osConst;
     }
 
-    protected function parsePHPOS($name, $repeat = true)
+    protected function parsePHPOS(string $name, $repeat = true)
     {
         switch ($name) {
 
@@ -249,10 +249,10 @@ class Detector implements DetectorInterface
     /**
      * This method normalizes some names for future compliance
      *
-     * @param $name
+     * @param  string $name
      * @return string
      */
-    protected function normalizePHPOS($name)
+    protected function normalizePHPOS(string $name)
     {
         //Cygwin
         if (stripos($name, 'CYGWIN') !== false) {
